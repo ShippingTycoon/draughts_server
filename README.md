@@ -45,3 +45,7 @@ similar to a purely digital environment. The publicly available dataset can be u
 in the computer vision community to further the development of models and techniques to recognise
 board games. The dataset can be found at https://universe.roboflow.com/harry-field-qemqy/draughts-board-fm9sx.
 
+### Key open-source software used in this project:
+- https://github.com/ultralytics/yolov5
+- https://github.com/techwithtim/Python-Checkers-AI
+
