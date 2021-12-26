@@ -13,19 +13,13 @@ move suggestion represented graphically.
 
 Implementation of this application was achieved through the following:
 - An open source object detection model was trained to recognise the required elements of a draughts
-board to capture game state (Pages 16 - 23)
-- A program was developed to improve the object detection model’s performance through evaluating
-and parsing results (Pages 20 - 22)
-- A program was developed to translate the elements returned from the object detection model into
-a game state (Pages 23 - 27)
- An open source game AI was integrated to take game state as input and output a suggested move
-(Pages 27 - 29)
-- A web application encapsulating object detection, game state translation and game AI for remote
-communication via REST API call was hosted (Pages 29 - 31)
-- A native mobile application was developed for image capture, image upload and move suggestion
-representation (Pages 31 - 36)
-- A testing pipeline was developed and executed to assess application functionality and value to the
-user (Pages 36 - 38 and 41 - 45)  
+board to capture game state
+- A program was developed to improve the object detection model’s performance through evaluating and parsing results 
+- A program was developed to translate the elements returned from the object detection model into a game state 
+- An open source game AI was integrated to take game state as input and output a suggested move
+- A web application encapsulating object detection, game state translation and game AI for remote communication via REST API call was hosted 
+- A native mobile application was developed for image capture, image upload and move suggestion representation
+- A testing pipeline was developed and executed to assess application functionality and value to the user 
 
 The application prototype implemented in this project is designed for over-the-board draughts players
 who would like to experience features unique to a digital environment without leaving the physical game.
@@ -49,6 +43,5 @@ successful method to obtain and represent game state in an understandable and ma
 From here, software implementations can be made in relation to the game of draughts in a manner
 similar to a purely digital environment. The publicly available dataset can be used by other developers
 in the computer vision community to further the development of models and techniques to recognise
-board games. The dataset can be found at https://universe.roboflow.com/harry-field-qemqy/
-draughts-board-fm9sx.
+board games. The dataset can be found at https://universe.roboflow.com/harry-field-qemqy/draughts-board-fm9sx.
 
